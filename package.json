@@ -1,0 +1,32 @@
+{
+  "name": "tele-stream",
+  "version": "1.0.0",
+  "description": "A stream implementation of telehash",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/No9/tele-stream.git"
+  },
+  "keywords": [
+    "telehash",
+    "DHT",
+    "UDP",
+    "P2P",
+    "peertopeer"
+  ],
+  "author": "anton whalley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/No9/tele-stream/issues"
+  },
+  "homepage": "https://github.com/No9/tele-stream",
+  "dependencies": {
+    "telehash": "^0.2.12"
+  },
+  "devDependencies": {
+    "tap": "^0.4.9"
+  }
+}
